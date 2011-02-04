@@ -1,8 +1,9 @@
-#summary One-sentence summary of this page.
+#summary Installation instructions
 
 = Introduction =
 
-How to run it.
+If you are not using the standalone windows executable of this tool and you prefer to run it as a Python script, here is how:
+
 
 
 = Details =
