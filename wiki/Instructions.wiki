@@ -6,12 +6,15 @@ How to run it.
 
 
 = Details =
-0) Make sure you have Python 2.6 installed
+0) Make sure you have Python 2.6 or later version installed (not version 3 and up though)
 
-1) Unrar into some folder
+1) Unrar/Unzip into some folder (e.g. c:\folders2flickr)
 
-2) edit *uploadr.ini*
+2) edit *uploadr.ini* 
 
-3) run from cmd line or cron job: *uploadr.py*
+3) first run from cmd line (or later as a cron job) : *python uploadr.py*
 
-4) look at logs and see if there is problems or whats it doing
+*NOTE:* If running for the first time the tool will look for .token file - if it does not find it, it will open default web browser and will ask you for authorization and permission (Delete level) on Flickr web site.
+
+
+4) After running please look at logs and see if there is problems or whats it doing
